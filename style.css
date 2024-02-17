@@ -1,0 +1,336 @@
+/*navbar below*/
+.container h1{
+	padding: 0 12px;
+}
+header {
+	padding: 20px 0 10px 0;
+	background: #87CEEB;
+}
+header::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+nav {
+	padding: 10px 0 0 0;
+	width: 100%;
+	text-align: center;
+	
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin: 10px 15px 0px 15px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	position: relative;
+	font-weight: 600;
+}
+nav a {
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+nav a:hover {
+	color: #000;
+}
+nav a::before {
+	content:'';
+	display: block;
+	height: 5px;
+	background-color: #555;
+
+	position: absolute;
+	bottom: 10px;
+	width: 0%;
+
+	transition: all ease-in-out 100ms;
+}
+nav a:hover::before {
+	width: 100%;
+}
+.container {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+
+
+/*all pages*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+p {
+	font-size: 18px;
+}
+.page {
+	text-align: center;
+	font-family: Gill Sans, sans-serif;
+}
+
+
+
+/*index*/
+body {
+	font-family: Verdana, sans-serif;
+}
+.showcase{
+	padding: 0 15px;
+}
+.showcase a{
+	text-decoration:none;
+	cursor: pointer;
+	color: #000;
+}
+
+.showcase a:hover{
+	text-decoration: underline;
+}
+h1 {
+	text-align: center;
+	font-size: 35px;
+}
+
+/*Java Page ONLY*/
+#javaImage{
+	width: 30%;
+	height: 30%;
+}
+@media only screen and (max-width: 800px){
+	#javaImage{
+		width: 70%;
+		height: 40%;
+	}
+}
+
+/*projectsPage*/
+.projectsPage{
+	padding: 0 20%;
+}
+.projectsPage img{
+	width: 35%;
+	height: 35%;
+}
+.projectsPage p{
+	padding: 0 20%R;
+}
+.projectsPage h1 {
+	text-align: left;
+	font-size: 35px;
+}
+.projectsPage h3{
+	text-align: left;
+}
+@media only screen and (max-width: 800px){
+	.projectsPage img{
+		width: 50%;
+		height: 50%;
+	}
+}
+@media only screen and (min-width: 1500px){
+	.projectsPage img{
+		width: 25%;
+		height: 25%;
+	}
+	.projectsPage p{
+		text-align: center;
+		padding: 0 20%;
+	}
+}
+
+/*appPage*/
+.appPage{
+	padding: 0 10%;
+	padding-bottom: 75px;
+}
+.appPage img{
+	width: 35%;
+    height: 35%;
+}
+
+	/*APP INFO*/
+.appInfo{
+	padding: 30px 0;
+	display: inline-block;
+	text-align: left;
+}
+.appInfo img{
+	border-radius: 25%;
+	float: left;
+	padding: 0 20px 0 20px;
+	width: 35%;
+	height: 35%;
+}
+.appInfo h1{
+	text-align: left;
+    font-size: 35px;
+}
+.appInfo p{
+    text-align: left;
+}
+
+
+
+
+/* IPAD SCREENSHOTS*/
+.longShots{
+	padding: 20px 0;
+	display: inline-block;
+}
+.longShots img{
+	border-radius: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* APP SCREENSHOTS*/
+.appShots{
+	padding: 20px 0;
+	display: inline-block;
+}
+.appShots img{
+	border-radius: 0%;
+	width: 50%;
+	height: 50%;
+}
+
+@media only screen and (min-width: 700px){
+	.appInfo img{
+		width: 35%;
+		height: 35%;
+	}
+	.longShots img{
+		width: 100%;
+		height: 100%;
+	}
+	.appInfo p{
+		padding-right: 25%;
+	}
+}
+@media only screen and (min-width: 1200px){
+	.appInfo img{
+		width: 25%;
+		height: 25%;
+	}
+	.longShots img{
+		width: 100%;
+		height: 100%;
+	}
+	.appPage{
+		padding: 0 5%;
+	}
+	
+}
+@media only screen and (min-width: 1400px){
+	.appInfo img{
+		width: 18%;
+		height: 18%;
+	}
+	.longShots img{
+		width: 50%;
+		height: 50%;
+	}
+}
+@media only screen and (max-width: 700px){
+	.appInfo h1{
+		font-size: 25px;
+	}
+	.appInfo h3{
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+/*about me*/
+.message {
+	padding: 20px 20px 0 20px;
+	font-family: Garamond, serif;
+	text-align: left;
+	width: 100%;
+}
+.pic {
+	text-align: center;
+	padding: 15px;
+}
+@media only screen and (min-width: 966px){
+	.message{
+		float: left;
+		width: 60%;
+	}
+	.message p{
+		text-align: left;
+	}
+	.pic{
+		float: right;
+	}
+}
+
+
+
+
+/*contact*/
+.info {
+	text-align: center;
+	padding: 10px 0 0 10px;
+}
+.info p{
+    padding: 2px;
+}
+.info a{
+	text-decoration: none;
+	color: #000;
+}
+.info a:hover{
+	text-decoration: underline;
+}
+.box {
+	padding: 20px;
+	/*background-color: #f3e5ab;
+	border: 3px solid grey;*/
+}
+
+
+input[type=text] {
+	width: 100%;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 13px 0;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: 300ms;
+}
+input[type=text]:focus {
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+@media only screen and (min-width: 700px){
+	/*.info{
+		float: left;
+	}*/
+	.box{
+		max-width: 50%;
+		float: right
+	}
+}
+
+
+
+
+
+
